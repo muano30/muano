@@ -39,8 +39,8 @@ There are three kinds of object.
 # Conclusion
 
 When naming a function, variable or class, you should keep the following things in mind:
-Choose a word with meaning (provide some context)
-Avoid generic names (like tmp )
-Attach additional information to a name (use suffix or prefix)
-Don't make your names too long or too short.
+Choose a word with meaning (provide some context),
+Avoid generic names (like tmp ),
+Attach additional information to a name (use suffix or prefix),
+Don't make your names too long or too short,
 Use consistent formatting.
