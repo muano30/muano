@@ -1,7 +1,7 @@
 ---
 Layout:
 Title: 'Understanding the meaning of some words used in JavaScript'
-date: '2020-02-26'
+date: '2021-02-26'
 ---
 
 # Introduction
