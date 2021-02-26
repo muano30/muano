@@ -14,7 +14,7 @@ Today i just want to share with you the meaning or explanation of some words tha
 
 Is something that can be changed. We use variables to store information that might change and can be used later in our program, for example in a game a variable could be the current score of the player.
  
- ## Syntax
+## Syntax
 
 Is a set of rules that defines the combination of symbols that are considered to be correctly structured or the format in which words and phrases are arranged to create a sentence, so it is important to phrase or arrange words in JavaScript.
 
@@ -38,9 +38,4 @@ There are three kinds of object.
 
 # Conclusion
 
-When naming a function, variable or class, you should keep the following things in mind:
-Choose a word with meaning (provide some context),
-Avoid generic names (like tmp ),
-Attach additional information to a name (use suffix or prefix),
-Don't make your names too long or too short,
-Use consistent formatting.
+When naming a function, variable or class, you should keep the following things in mind:Choose a word with meaning (provide some context),Avoid generic names (like tmp), Attach additional information to a name (use suffix or prefix),Don't make your names too long or too short,Use consistent formatting.
