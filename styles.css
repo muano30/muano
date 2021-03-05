@@ -29,13 +29,9 @@ img {
     border-radius: 50%;
     width: 350px;
     height: 350px;
-   /* margin-left: auto;
-    margin-right: auto;*/
-    position: absolute;
-    top: 150px;
-    z-index: 2;
-    
-  
+    margin-left: auto;
+    margin-right: auto;
+      
 }
 
 
@@ -47,32 +43,14 @@ h1 {
     /*margin-bottom: 50px;
     margin-top: 50px;*/
     padding: 70px 0;
-    
 }
 
-.cir1 {
+/*t changes the background-image
+ body {
+    background-image: url("images./muano.JPG");
+    background-repeat: repeat-x;
+    background-position: left;  
+  }*/
 
-  height: 300px;
-  width: 300px;
-  background-color: #008080;
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 90px;
-  /*Z-index: 1;*/
-}
 
-  
-.cir2 {
 
-  height: 250px;
-  width: 250px;
-  background-color: #008080;
-  border-radius: 50%;
-  display: block;
-  margin-left: 1100px;
-  margin-right: 1100px;
-  
-}
