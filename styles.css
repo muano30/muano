@@ -1,56 +1,47 @@
-
-.topnav {
-  background-color: #008080;
-  overflow: hidden;
+ img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+.wrapper {
+  margin-top: 10%;
 }
-
-.topnav a {
-  float: left;
-  color: black;
+.wrapper h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align-last: center;
+}
+.about {
+  display: flex;
   text-align: center;
-  padding: 18px 20px;
-  text-decoration: none;
-  font-size: 20px;
+  width: auto;
+  justify-content: center;
+  
+}
+.about .about_me {
+  box-shadow: 0 0 4px;
+  text-align: center;
+}
+
+ h1 {
+  text-align: center;
+  font-family: monospace;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h2 {
+
+  text-align: center;
+  font-family:monospace;
+}
+.nav {
+  margin: 20px;
 }
 
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
- 
-img {
-    display: block;
-    border-radius: 50%;
-    width: 350px;
-    height: 350px;
-    margin-left: auto;
-    margin-right: auto;
-      
-}
-
-
-h1 {
-    font-size: 30px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    /*margin-bottom: 50px;
-    margin-top: 50px;*/
-    padding: 70px 0;
-}
-
-/*t changes the background-image
- body {
-    background-image: url("images./muano.JPG");
-    background-repeat: repeat-x;
-    background-position: left;  
-  }*/
 
 
 
