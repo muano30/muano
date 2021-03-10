@@ -10,7 +10,7 @@ date: "2021-03-10"
 
 # What is Recursion.
 
- When a fuction calls itself until it doesn't.
+ When a function calls itself until it doesn't.
 
 # Example.
 
