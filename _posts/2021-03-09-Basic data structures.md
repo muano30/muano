@@ -1,12 +1,12 @@
 ---
 Layout:
-Title: 'Basic data structures'
-date: '2021-03-09'
+Title: "Basic data structures"
+date: "2021-03-09"
 ---
 
 # Introducrion.
 
-This is the part of JavaScript i solve a lot of problem without having to check the solution, although there were proplem even after analyzing them and getting the answers i didn't understanding. For the part that i didn't understand like always i will have to reseach to understand.
+This is the part of JavaScript i solve a lot of problem without having to check the solution, although there were proplem even after analyzing them and getting the answers i didn't understanding. For the part that i didn't understand like always i will have to research to understand.
 
 Basic Data Structures course, we learn about the differences between arrays and objects, and which to use in different situations. We learn how to use push(), unshift, pop(), shift(), splice(), spice() and (...) spread operator etc.
 
@@ -29,5 +29,5 @@ Commonly used in computer programm to organize data so that a related set of val
 
  # Conclusion.
   
-  The proplems that we solved here made it easy for me to understand, the only thing left is how to apply what i have learned. 
+  The proplems that i have solved here made it easy for me to understand, the only thing left is how to apply what i have learned. 
  
