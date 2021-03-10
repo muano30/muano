@@ -27,7 +27,7 @@ Commonly used in computer programm to organize data so that a related set of val
 
  5. indexOf() we use it to check for the presence of an elements.
 
- # Conclusion.
+# Conclusion.
   
   The proplems that i have solved here made it easy for me to understand, the only thing left is how to apply what i have learned. 
  

@@ -10,30 +10,33 @@ date: "2021-03-10"
 
 # What is Recursion.
 
-  When a fuction calls itself untill it doesn't.
+ When a fuction calls itself until it doesn't.
 
 # Example.
 
-    Here i will repeat the example that i've learned because it makes me understand it better but this is not the only example, i discovered that there are more complex example or code i will need to understand but this make it easy for me to start. 
+ Here i will repeat the example that i've learned because it makes me understand it better but this is not the only example, i discovered that there are more complex example or code i will need to understand but this make it easy for me to start. 
 
 
 ## Lets say we want to Count down from ten.
+      
+      countdownfrom(10)
 
     let countdownfrom = (num) =>  {
         console.log(num)
-        countdownfrom(num-1) }
+        countdownfrom(num-1)
+        }
+      
+      
+       If we run the code above will see that the computer will run this number untill -1500,  so the next step i will write a line we need to add to make it count to the number we want or where we want it to stop.
 
-        countdownFrom(10) 
+       In the same code above this is the line we have to add.
 
-        
-        if we run the code above will see that the computer will run this number untill -1500  so the next step i will write a line we need to add to make it count to the number we want or where we want it to stop.
-
-        in the same code above after this is the line we have to add.
-
-        if (num === 0) return;  after adding this line, when we run the code it will countdown untill one.
+       "if (num === 0) return;"  after adding this line, when we run the code it will countdown until one.
     
+# Conclusion.
 
-    countdownFrom(10)
+This is not the only example for recursion, i have to find more and complex example, but this example for the start it helped me to understand.  
+ 
 
 
 
