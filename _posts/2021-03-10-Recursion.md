@@ -19,11 +19,11 @@ date: "2021-03-10"
 
 ## Lets say we want to Count down from ten.
       
-      countdownfrom(10)
+      countDownFrom(10)
 
-    let countdownfrom = (num) =>  {
+    let countDownFrom = (num) =>  {
         console.log(num)
-        countdownfrom(num-1)
+        countDownFrom(num-1)
         }
       
       
