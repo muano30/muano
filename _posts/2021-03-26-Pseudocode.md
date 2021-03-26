@@ -21,6 +21,3 @@ This is not the only information about pseudocode, you can search more. The only
 
 
 
-
-
-
