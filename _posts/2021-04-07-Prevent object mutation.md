@@ -10,8 +10,7 @@ Prevent object mutation, in this topic i just learned that const declaration alo
 
 Once object is frozen you can no longer add, update or delete properties from it. Any attempt at changing the object will be rejected without an error.
 
-
- # Example.
+# Example.
 
 function freezeObj() {
   const MATH_CONSTANTS = {
