@@ -8,9 +8,9 @@ date: "2021-04-15"
 
 Lookahead are patterns that tell JavaScript to look-ahead in your string to check for patterns futher along. This can be useful when you want to search for multiple pattern over the string.
 
-## Two kinds of lookahead
+# Two kinds of lookahead
 
-1. positive lookahead
+1. Positive lookahead
 
 Will look to make sure the element in the search pattern is there, but won't actually match it. A positive lookahead is used as (?=...) where the (...) is the required part that is not matched.
 
