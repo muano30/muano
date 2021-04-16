@@ -32,15 +32,15 @@ I will explain each character that i have learn so far.
 
 6: [ ] (square brackets) if we want to match bag, big and bug, we can create a regex /b[aiu]g/.
 
-7: ^  match beginning of sequence
+7: ^  match beginning of sequence.
 
-8: +  match one or more repetitions
+8: +  match one or more repetitions.
 
-9: *  search zero or more repetitions
+9: *  search zero or more repetitions.
 
-10: ?  zero or one repetitions
+10: ?  zero or one repetitions.
 
-11: $  search end of sequence
+11: $  search end of sequence.
 
 
 # Conclusion. 
