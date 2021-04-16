@@ -22,7 +22,7 @@ I will explain each character that i have learn so far.
 
 1:  / /  (two backwards slash) are used in code for matching parts of string, for example if   we have a string "frecodecamp" and we want the word "code". The regex we want is /code/. 
 
-2:  (|) OR we use it to search for multiple strings, for example we want to match the string   yes or no, the regex we want is /yes|no/.
+2: Using the symbol for (OR) we use it to search for multiple strings, for example we want to match the string   yes or no, the regex we want is /yes|no/.
 
 3: i flag we use is to igonore upper and lower case, this regex will match the string, Muano, muaNo, muano, the regex we want is /muano/i.
 
