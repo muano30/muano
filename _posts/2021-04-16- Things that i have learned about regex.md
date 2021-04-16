@@ -20,7 +20,7 @@ We have method to test, match and replace regex, it is also important to learn t
 
 I will explain each character that i have learn so far.
 
-1:  / /  (two backwards slash) are used in code for matching parts of string, for example if   we have a string "frecodecamp" and we want the word "code". The regex we want is /code/. 
+1: / /  (two backwards slash) are used in code for matching parts of string, for example if   we have a string "frecodecamp" and we want the word "code". The regex we want is /code/. 
 
 2: Using the symbol for (OR) we use it to search for multiple strings, for example we want to match the string   yes or no, the regex we want is /yes|no/.
 
@@ -34,11 +34,11 @@ I will explain each character that i have learn so far.
 
 7: ^  match beginning of sequence
 
-8: +   match one or more repetitions
+8: +  match one or more repetitions
 
 9: *  search zero or more repetitions
 
-10: ?   zero or one repetitions
+10: ?  zero or one repetitions
 
 11: $  search end of sequence
 
