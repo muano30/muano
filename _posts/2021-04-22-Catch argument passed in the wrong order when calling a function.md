@@ -6,7 +6,7 @@ date: "2021-04-22"
 
 # Introduction.
 
-I thougth we can write arguments in any order and the computer will be able to read the code, then now i know that we need to write them in the correct oder to avoid issues.
+I thougth we can write arguments in any order and the computer will be able to read the code, now i know that we need to write them in the correct oder to avoid issues.
 
 Argument are real values passed to the function. The next bug to watch out for is when a function's arguments are supplied in the incorrect order. if the arguments are different such as a function expecting an array and an integer, this will likely throw a runtime error.
 
