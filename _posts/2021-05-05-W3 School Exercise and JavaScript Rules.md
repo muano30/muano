@@ -27,7 +27,7 @@ Use FireBug and check the Console to make certain there are no JavaScript errors
  
 Use the FireBug breakpoints and stepping tools to walk through the code a line at a time. Before you step ask yourself, "What will happen next?"  And then, force your brain to come up with an answer before you step through that line of code.
 
-You can't set breakpoints and step through the code unless the code is correct. No syntax errors. So, you have to pass step #2 before you can do step #3.
+You can't set breakpoints and step through the code unless the code is correct. No syntax errors. So, you have to pass step 2 before you can do step 3.
 
 # RULE 3 - Spelling Matters!
 
@@ -61,21 +61,21 @@ If you get an error message telling you that an object cannot be found, most lik
 Why is the semi-colon inside the quotation marks? These examples would be used as part of XHTML code for a button.
 
 Here is the complete code:
-<button value="Click to View the Display" onclick = "showDisplay( );" />
+button value="Click to View the Display" onclick = "showDisplay( );"
 
-The onclick = " " is an attribute that adds information to the <button> tag. When using an attribute like this you can list JavaScript code directly and you don't have to enclose the JavaScript with a <script> tag. The browser knows automatically that if the JavaScript is inside an onclick = " " attribute that it is JavaScript.
+The onclick = " " is an attribute that adds information to the button tag. When using an attribute like this you can list JavaScript code directly and you don't have to enclose the JavaScript with a script tag. The browser knows automatically that if the JavaScript is inside an onclick = " " attribute that it is JavaScript.
 
 The quotes in this case are enclosing the entire value of the attribute onclick = " ".
 The semi-colon ";" is telling the browser that that is the end of the actual JavaScript code.
 
-# RULE 4 - No HTML code inside of the <script> element.
+# RULE 4 - No HTML code inside of the script element.
 
-You can't put HTML/XHTML commands or HTML comment markers inside of the <script></script> element.
+You can't put HTML/XHTML commands or HTML comment markers inside of the script element.
 
 This is an HTML comment:
    <!-- This is the comment marker for XHTML -->
 
-These are the only comment markers you can use inside of the <script> element:
+These are the only comment markers you can use inside of the script element:
    // This is the comment marker for single line JavaScript code
 
    /* This is the comment marker for
@@ -89,25 +89,24 @@ JavaScript does not like HTML code! If you are going to include HTML code inside
 
 Here is an example of valid JavaScript code:
 
-document.write("This will output a horizontal rule." + "<hr />");
+document.write("This will output a horizontal rule." + " hr ");
 
 Notice that the text and the HTML code are all inside double quotes.
 
-# RULE 6 - You can't write JavaScript code outside of the <script> element.
+# RULE 6 - You can't write JavaScript code outside of the script element.
 
- You can't use JavaScript code outside of a <script></script> element.
+ You can't use JavaScript code outside of a script element.
 
-You tell the browser to put its "JavaScript" hat on by using the <script> element. Until you do that the browser is going to be thinking (and dreaming) in HTML or XHTML.
+You tell the browser to put its "JavaScript" hat on by using the script element. Until you do that the browser is going to be thinking (and dreaming) in HTML or XHTML.
 
 The only exception to this is when you have an event such as the click event on a button. The browser knows when it sees an event to put its JavaScript hat on whenever that even happens.
 
 For example:
 
-<button onClick = "alert("You clicked the button");"  value = "Click the button for a message" />
+button onClick = "alert("You clicked the button");"  value = "Click the button for a message"
 
-The code inside of the onClick = "  " attribute will run as if it was inside a <script> element.
+The code inside of the onClick = "  " attribute will run as if it was inside a script element.
 
-SOURCE: HTTP://WWW.W3SCHOOLS.COM/JSREF/EVENT_ONCLICK.ASP
 
 # RULE 7 - "Strings have Quotes" - Variables Don't.
 
@@ -130,14 +129,14 @@ Every quotation mark " needs a matching closing quotation mark ".
 
 ## Examples: 
 
-CORRECT:  document.write("The " + counter + "name entered is: " + userInputVariable + "<br />");
-BROKEN:     document.write("The     counter + " name entered is: " + userInputVariable "<br />)";
-BROKEN:     document.write("The + counter + "name entered is: " + userInputVariable "<br />");     
+CORRECT:  document.write("The " + counter + "name entered is: " + userInputVariable + "br");
+BROKEN:     document.write("The     counter + " name entered is: " + userInputVariable "br)";
+BROKEN:     document.write("The + counter + "name entered is: " + userInputVariable "br");     
 
 HINT: Look for the pattern:  start quote/end quote/glue/variable/glue/start quote/end quote etc.
                                           "  " + var + " " + var + " " + var + " ";
 Solutions to the broken lines:
-The first broken line is missing a closing quotation after "The " and a concatenation + operator. The closing quotation at the end of the line should be inside of the parenthesis:  "<br />");  Notice how the quotations have to be inside the pair of parenthesis. They can't overlap.
+The first broken line is missing a closing quotation after "The " and a concatenation + operator. The closing quotation at the end of the line should be inside of the parenthesis:  "br);  Notice how the quotations have to be inside the pair of parenthesis. They can't overlap.
 
 The second broken line is missing a closing quote after "The " and a concatenation + operator after the variable userInputVariable.
 
