@@ -106,6 +106,7 @@ console.log(entries)
 My favorite of the three is Object.entries because you get both the key and property values.
 
 Looping through the array
+
 Once you’ve converted the object into an array with Object.keys, Object.values, or Object.entries, you can loop through it as if it was a normal array.
 
 
@@ -120,8 +121,11 @@ for (const key of keys) {
 }
 
 Results:
+
   apple
+
   orange
+
   pear
 
 If you use Object.entries you might want to destructure the array into its key and property.
@@ -133,6 +137,9 @@ for (const [fruit, count] of entries) {
 }
 
   Result
+
     There are 28 apples
+
     There are 17 oranges
+
     There are 54 pear
