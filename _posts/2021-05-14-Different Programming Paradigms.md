@@ -75,4 +75,4 @@ When working across different boundaries OOP is the excellent methods to keep ev
 
 Functional proramming is good when the code requires new operations on the already existing items, where as object oriented programming is good when we want to keep thngs packaged and secured from the unwanted access and usage.
 
-Use this Github link to access my code examples ( https://github.com/muano30/Different-programming-paradigms-code-example)
+Use this Github link to access my code examples ( https://github.com/muano30/Different-programming-paradigms-code-example).
