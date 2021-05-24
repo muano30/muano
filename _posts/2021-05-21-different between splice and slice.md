@@ -18,7 +18,7 @@ The splice() method returns the removed items in an array. The slice() method re
 
 I was doing an example about the different between primitive type or value type and refference type or object type when moral add an example of slice and splice and the reason behind this is that i just figured out that primitive are copied by their values and object are copied by their refference.
 
-git 
+ 
 # Conclusion.
 
 I think it is very important to know how they both operate, so that we will be able to apply them in our code.
