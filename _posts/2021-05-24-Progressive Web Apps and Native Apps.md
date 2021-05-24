@@ -1,6 +1,6 @@
 ---
 Layout:
-Title: "Progressive web Apps and Native Apps".
+Title: "Progressive web Apps and Native Apps."
 date: "2021-05-24"
 ---
 
