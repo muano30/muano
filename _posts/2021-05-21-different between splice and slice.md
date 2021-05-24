@@ -1,6 +1,6 @@
 ---
 Layout:
-Title: "different between splice and slice.
+Title: "different between splice and slice".
 date: "2021-05-21"
 ---
 
