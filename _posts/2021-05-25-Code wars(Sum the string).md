@@ -5,7 +5,7 @@ date: "2021-05-25"
 ---
 
 # Introduction.
-
+ 
 I will talk about the problem that i have solved on code wars today, which is "sum the strings" and the reason is because i've just learned about something i was not aware of, that helped me to finally find the answer.
 
 # Body.
