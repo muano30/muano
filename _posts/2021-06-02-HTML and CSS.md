@@ -1,6 +1,6 @@
 ---
 Layout: 
-Title: "CSS and HTML."
+Title: "HTML and CSS."
 date: "2021-06-02"
 ---
 
