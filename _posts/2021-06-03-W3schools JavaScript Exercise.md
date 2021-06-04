@@ -6,7 +6,7 @@ date: "2021-06-03"
 
 # Introduction.
 
-I have learned all the basics in JavaScript although i stil have to improve on some of the things that i think i have't understand them deeper to apply myself. After searching how can i improve my JavaScript knowlwdge i started with W3schools Exercise.
+I have learned all the basics in JavaScript although i stil have to improve on some of the things that i think i have't understand them deeper to apply myself. After searching how can i improve my JavaScript knowledge i started with W3schools Exercise.
 
 
 # Body.
