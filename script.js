@@ -71,3 +71,62 @@
 // console.log(telephoneCheck("27576227382"));
 
 
+// using slice in a sentence
+
+// var txt = "I can eat bananas all day";
+// var x = txt.slice(18,21);
+
+// console.log(x)
+
+
+//  here to access strings in array.
+
+// var cars = ["Saab", "Volvo", "BMW"];
+// var x = cars[1];
+
+// console.log(x)
+
+// ceate a loop that runs as long as i is less than 10, but increase i with 2 each time.
+
+// var i = 0;
+// while (i < 10) {
+//   console.log(i);
+//   i = i + 2;
+// }
+
+// loop that will iterate through the fruits.
+
+// var fruits = ['banana', "water"]
+// for( i of fruits){
+    // console.log(i)
+// }
+
+
+// Make the loop stop when i is 5.
+
+
+// for (i = 0; i < 10; i++) {
+//   console.log(i);
+//   if (i == 5) {
+//     break;
+//   }
+// }
+
+// Make the loop jump to the next iteration when i is 5.
+
+// for (i = 0; i < 10; i++) {
+//     if (i == 6) {
+//       continue;}
+//     console.log(i);
+//   }
+
+
+// var numbers = [4, 9, 16, 25, 29];
+// var first = numbers.findIndex(myFunction);
+
+// function myFunction(value, index, array) {
+//   return value > 18;
+// }
+
+// console.log(first)
+
