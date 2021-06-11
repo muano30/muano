@@ -193,8 +193,8 @@
 
 // hoisting (declaring our function before we invoke it)
 
-// dogSays("hoof!")
+// dogSays("hoof!");
 
 // function dogSays(sound) {
-//     console.log(sound)
+//     console.log(sound);
 // }
