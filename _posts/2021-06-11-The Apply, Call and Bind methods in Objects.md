@@ -14,7 +14,8 @@ The Apply, Call and Bind Methods in Objects is something i just learn recently t
 
 Consider the Object1 can have its own Properties and Object2 can have its own property, so we can write a common method for these object and use within that using call/apply/bind method.
 
-1. Call Method.
+
+### Call Method.
 
 Call invokes the function and allows you to pass in arguments one by one.
 
@@ -32,7 +33,8 @@ say.call(person1, 'Hello'); // Hello Jon Kuperman
 
 say.call(person2, 'Hello'); // Hello Kelly King
 
-2. Apply Method
+
+### Apply Method
 
 Apply invokes the function and allows you to pass in arguments as an array.
 
@@ -50,7 +52,8 @@ say.apply(person1, ['Hello']); // Hello Jon Kuperman
 
 say.apply(person2, ['Hello']); // Hello Kelly King
 
-3. Bind Method:
+
+### Bind Method:
 
 Bind returns a new function, allowing you to pass in a this array and any number of arguments.
 
