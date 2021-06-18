@@ -15,11 +15,15 @@ Callbacks are a great way to handle something after something else has been comp
 ## Code example.
 
 const greeting = (name) => {
+
     console.log('Hello ' + name);
+
 }
 
 const processUserName = (callback) => {
+
     let name = 'Muano';
+    
     callback(name);
 }
 
