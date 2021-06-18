@@ -216,5 +216,77 @@
 //   var bound = add.bind(obj);
 //   console.log(bound(3,4,5));         //output : 14 
 
+// // Emmidiately envoked function. 
 
- 
+// let  paintColor = "red"
+
+// const paint =(() => {
+//   return {
+//     changeColorToBlue: () => {
+//       paintColor: "Blue";
+//       return paintColor;
+//     },
+//     changeColorToGreen: () => {
+//       paintColor: "Green";
+//       return paintColor;
+//     }
+//   }
+// })();
+
+// console.log(paint.changeColorToBlue());
+
+// closure examples. 
+
+
+// const first = () => {
+//   let greet = "Hi";
+
+//   const second = () => {
+//     let name = "Muano";
+//     console.log(`${greet}, ${name}`)
+//   }
+//   return {
+
+// greet,
+// second
+//   }
+// }
+
+// const newFunc = first()
+
+// newFunc.second()
+
+//  callback function.
+
+// const sayName = (name) => {
+//   console.log( "Hello " + name);
+// }
+
+// const user = (callback) => {
+//   name = "muano";
+//   callback(name);
+
+// }
+
+// user(sayName);
+
+// const greeting = (name) => {
+//   console.log('Hello ' + name);
+// }
+
+// const processUserName = (callback) => {
+//   let name = 'Muano';
+//   callback(name);
+// }
+
+// processUserName(greeting);
+
+
+
+
+
+
+
+
+
+
