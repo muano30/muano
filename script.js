@@ -54,6 +54,22 @@
 // console.log(obj instanceof Map); 
 
 
+// Closure Example.
+
+// const first = () => {
+//   const  name ="Muano";
+//   const second = () =>{
+//     const surname = "Nevhufumba";
+//     console.log(`${name} ${surname}`);
+//   }
+
+//   return second
+// }
+
+// const newFunc = first();
+//  newFunc()
+
+
 
 
 
