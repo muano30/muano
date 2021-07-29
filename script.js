@@ -70,6 +70,94 @@
 //  newFunc()
 
 
+// map method
+
+// const numbers = [ 1,2,4,5,6];
+
+// const bignumbers = numbers.map(number =>{
+//     return number * 10;
+// });
+
+// console.log(bignumbers)
+
+
+// filter javascript arrayJavascript By White Browed Owl on Nov 11 2019 Comment
+// var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+// const result = words.filter(word => word.length > 6);
+
+// console.log(result);
+
+// const colours = ['green', 'black', 'dark-orange', 'light-yellow', 'azure'];
+// const result = colours.filter(colour => colour.length < 6);
+// console.log(result);
+
+// const recipe = ['banana', 'orange', 'apple', 'lemon'];
+// const results = recipe.filter(longWords) 
+// => recipes.length > 5);
+
+// function longWords(recipe){
+  // return recipe.length > 5;
+// }
+// console.log(results)
+
+
+// const ages = [32, 33, 16, 40];
+
+// let results = ages.filter(checkAdult)  
+
+// function checkAdult(age) {
+//   return age >= 18;
+// }
+
+// console.log(results)
+
+// var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+// const result = words.filter(word => word.length > 6);
+
+// console.log(result);
+
+
+// var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+// const result = words.filter(longWords);
+
+// function longWords(words) {
+
+//   return words.length > 6;
+// }
+
+// console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
