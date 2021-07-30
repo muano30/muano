@@ -20,7 +20,7 @@ filter() does not change the original array.
 
 ## Code examples.
 
-1. In the example below we want to get the fruits inside the array that have more than five letter. 
+1.In the example below we want to get the fruits inside the array that have more than five letter. 
 
 const recipe = ['banana', 'orange', 'apple', 'lemon'];
 
@@ -29,7 +29,7 @@ const results = recipe.filter(word => word.length > 6)
 console.log(results) [The output of this code is banana and orange]
 
 
-2. In the code below we want to get age older or equal to 18. 
+2.In the code below we want to get age older or equal to 18. 
 
 const ages = [32, 33, 16, 40];
 
