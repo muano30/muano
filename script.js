@@ -131,6 +131,17 @@
 // console.log(result);
 
 
+// let numbers= [3, 4, 5, 6];
+
+// const results = numbers.map(numberOfStudents);
+
+// function numberOfStudents(numbers) {
+//   return numbers*3
+// } 
+
+// console.log(results)
+
+
 
 
 
