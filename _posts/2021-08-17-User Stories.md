@@ -19,15 +19,15 @@ I have learned also about epic which is a very big user story and contain many o
 What i have just learn recently is that user stories consist of three part.
 
 
-1. The persona.
+1 The persona.
 
 The persona of the user which the stories is written for.
 
-2. The feature.
+2 The feature.
 
 consist of the features that the user requires.
 
-3. The need satisfied by the feature.
+3 The need satisfied by the feature.
 
 # Conclusion.
 
