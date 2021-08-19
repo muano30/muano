@@ -6,7 +6,6 @@ date: "2021-07-03"
 
 # Introduction.
 
-
 I have just started with react freeCodeCamp challenges, in this blog post i will share with you how to create a simple JSX element and a complex JSX element that i have just learned.
 
 # Body.
