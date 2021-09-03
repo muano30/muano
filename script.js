@@ -141,6 +141,13 @@
 
 // console.log(results)
 
+// Getting the unicode value for "H"
+
+// let str = "HELLO WORLD";
+// let results = str.charCodeAt(0)    
+
+// console.log(results)
+
 
 
 
