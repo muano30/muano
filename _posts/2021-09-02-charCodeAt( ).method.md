@@ -1,7 +1,7 @@
 ---
 Layout: 
 Title: "charCodeAt() method."
-date: "2021-09-01"
+date: "2021-09-02"
 ---
 
 # Introduction.
