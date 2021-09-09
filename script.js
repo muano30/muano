@@ -149,6 +149,33 @@
 // console.log(results)
 
 
+// let a = [5, 7],
+//   count = 10,
+//   missing = []
+
+// for (let i = 1; i <= count; i++) {
+//   if (a.indexOf(i) === -1) {
+//     missing.push(i)
+//   }
+// }
+// console.log(missing)
+
+// var numArray = [0.189459, 0.189460, 0.189461, 0.189463, 0.189466];
+// var mia = numArray.reduce(function(acc, cur, ind, arr) {
+//   var diff = cur - arr[ind-1];
+//   if (diff > 1) {
+//     var i = 1;
+//     while (i < diff) {
+//       acc.push(arr[ind-1]+i);
+//       i++;
+//     }
+//   }
+//   return acc;
+// }, []);
+// console.log(mia);
+
+
+  
 
 
 
