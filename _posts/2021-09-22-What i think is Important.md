@@ -22,4 +22,4 @@ I enjoyed doing freeCodecamp because they explain something to you, then you wil
 
 # Conclusion.
 
-Don't read to forget or apply yourself for the sake of completing the challange because what i have learned is that the basics you learn in freeCodeCamp you will need to use them later and that requires the understanding, for example underStand what does push() do because it will also help you know when to use it when not to use it. 
+Don't read to forget or apply yourself for the sake of completing the challenge because what i have learned is that the basics you learn in freeCodeCamp you will need to use them later and that requires the understanding, for example underStand what does push() do because it will also help you know when to use it when not to use it. 
