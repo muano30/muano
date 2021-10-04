@@ -33,7 +33,7 @@ const sum = arrayOfNumbers.reduce((accumulator, currentValue) => {
 
 });
  
-console.log(sum); // 10
+console.log(sum);
 
 Here, the .reduce() method will sum all the elements of the array.
 

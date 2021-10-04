@@ -13,7 +13,7 @@ In this blog post i will share another way to use loop in array
 
 ## Explanation.
 
-As we all know, the ES6 is a milestone for JavaScript. Many great features were introduced by this version. The “for…of…” method is one of them. It makes things more elegant.
+As we all know, the ES6 is a milestone for JavaScript. Many great features were introduced by this version. The “for of” method is one of them. It makes things more elegant.
 
 For example, we can iterate the items of an array like the following:
 
