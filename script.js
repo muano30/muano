@@ -842,9 +842,3 @@
 
 // console.log(rentalCarsCost(6))
 
-
-  let a = "2"
-console.log(typeof(a))
-
-let n = (a * 1)
-console.log(typeof(n))

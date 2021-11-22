@@ -1,6 +1,6 @@
 ---
 Layout: 
-Title: "Ways To Convert String to number."
+Title: "Ways To Convert String to Number."
 date: "2021-10-20"
 ---
 
