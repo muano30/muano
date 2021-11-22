@@ -842,3 +842,15 @@
 
 // console.log(rentalCarsCost(6))
 
+const rentalCarsCost = (day) => {
+   let dayCost = 40
+
+   if(day >= 7){
+       return day * dayCost - 50
+   }if(day >= 3){
+       return day * dayCost - 20
+   }
+   return day * dayCost
+}
+
+console.log(rentalCarsCost(2))
