@@ -12,7 +12,7 @@ In this blog post i will just share with you ways on how to convert number to st
 
 # Explanation.
 
-We all know in coding the are many ways to solve a problem and it depend on how you approach the propblem or how you understand it, this are ways of converting number to be string.
+We all know in coding the are many ways to solve a problem and it depend on how you approach the propblem or how you understand it, this are ways of converting typeof number to be typeof string.
 
 1. let a = 2 
    console.log(typeof(a))   (........Here the typeof will be a number......)
