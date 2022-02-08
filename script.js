@@ -715,8 +715,8 @@
 // var a = 0; 
 // var b = 40;
 // function remainder(a, b){
-   // Divide the larger argument by the smaller argument and return the remainder
-   
+// Divide the larger argument by the smaller argument and return the remainder
+
 //    if(a > b && b === 0){
 //      return NaN;
 //    } else if(b > a && a === 0){
@@ -786,7 +786,7 @@
 // function gooseFilter (birds) {
 //    var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
 //    return birds.filter(birds => geese.indexOf(birds) < 0)
-   
+
 //  };
 
 //  console.log(gooseFilter(birds))
@@ -796,7 +796,7 @@
 // return the lastfour values
 
 //  const numbers = [ 2, 4, 6, 8 , 10 , 2, 4, 6, 82 , 310]
- 
+
 //  const returnLastFourItem = (array) => {
 //     for(var i in array){
 //        return array.slice(-4)
@@ -817,7 +817,7 @@
 //   sum = sum + array[i]
 //   }  
 //   return sum/array.length || 0;
-  
+
 // }
 
 // console.log(find_average(numbers))
@@ -827,7 +827,7 @@
 // function get the ratings
 
 
- 
+
 // 8 kyu Transportation on vacation
 
 // const rentalCarsCost = (d) => {
@@ -842,15 +842,422 @@
 
 // console.log(rentalCarsCost(6))
 
-const rentalCarsCost = (day) => {
-   let dayCost = 40
+// const rentalCarsCost = (day) => {
+//    let dayCost = 40
 
-   if(day >= 7){
-       return day * dayCost - 50
-   }if(day >= 3){
-       return day * dayCost - 20
-   }
-   return day * dayCost
-}
+//    if(day >= 7){
+//        return day * dayCost - 50
+//    }if(day >= 3){
+//        return day * dayCost - 20
+//    }
+//    return day * dayCost
+// }
 
-console.log(rentalCarsCost(2))
+// console.log(rentalCarsCost(2))
+
+
+//kata i love howMuchILoveYou, a little, a location, passionately...not AT
+
+
+// function howMuchILoveYou(nbPetals) {
+// let reference = [
+//    "I love you",
+//    "a little",
+//    "a lot",
+//    "passionately",
+//    "madly",
+//    "not at all"
+// ]
+
+// return reference[(nbPetals - 1) % reference.length]
+// }
+
+
+// console.log(howMuchILoveYou(8))
+
+// let students = [
+//    {id: 1, name: "Muano"},
+//    {id: 2, name: "Tumi"}
+
+// ]
+
+// const replaceOBj = (array, obj, id) => {
+
+//    for(let i in array){
+// console.log(array[i])
+
+//       if(array[i].id === id){
+//          array[i] = obj
+//       }
+//    }
+// return array
+// }
+
+// console.log(replaceOBj(students,{id: 3, name: "Sbu"}, 1))
+
+
+
+// let arrayOne = ['a', 'b', 'c', 'd'];
+// let arrayTwo = [1, 2, 3, 4];
+
+// let arraysCombined = [...arrayOne, ...arrayTwo];
+
+
+// given a string with numbers and letters return separate array with numbers and letters .
+
+// const values = "128bc1012fg"
+
+// const separateNumberAndLetters = (string) => {
+
+//    var newNumbers = []
+//    var newLetters = []
+//    for (var i in string) {
+//       if (isNaN(string[i])) {
+//          newLetters.push(string[i])
+//       }else{
+//          newNumbers.push(string[i])
+//       }
+//    }
+
+// return [newNumbers, newLetters]
+// }
+
+// console.log(separateNumberAndLetters(values))
+
+
+// The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc.
+// Given a year, return the century it is in.
+
+
+// const century = year => {
+//    const result = String(year / 100).split('.')
+//    return result.length === 2 ? Number(result[0]) + 1 : Number(result[0])
+
+// }
+
+// console.log(century(1705))
+// console.log(century(1900))
+// console.log(century(1601))
+// console.log(century(2000))
+// console.log(century(89))
+
+
+// const century = year => {
+//    return Math.ceil(year / 100)
+// }
+
+// console.log(century(1705))
+// console.log(century(1900))
+// console.log(century(1601))
+// console.log(century(2000))
+// console.log(century(89))
+
+
+// In this game, the hero moves from left to right. The player rolls the die and moves the number of spaces indicated by the die two times.
+// Create a function for the terminal game that takes the current position of the hero and the roll (1-6) and return the new position.
+
+// const move = (position, roll) => {
+// return position + (roll * 2)
+   
+// }
+
+
+// function move (position, roll) {
+   
+//    return roll >= 1 && roll <= 6 ? roll * 2 + position : null;
+// }
+
+       
+// const move = (position, roll) => {
+//    if(roll >= 1 && roll <= 6){
+//       return roll * 2 + position 
+//    }else{
+//       return null
+//    }
+// }
+
+
+// console.log(move(8, 7))
+
+   // const cal_time = (distance, speed) => {
+   //    return distance / speed
+   // }
+
+   // console.log(cal_time(20, 3.6))
+
+
+//    function minTommss(minutes){
+//       var sign = minutes < 0 ? "-" : "";
+//       var min = Math.floor(Math.abs(minutes));
+//       var sec = Math.floor((Math.abs(minutes) * 60) % 60);
+//       return sign + (min < 10 ? "0" : "") + min + ":" + (sec < 10 ? "0" : "") + sec;
+//      }
+
+// console.log(minTommss(12.2))
+
+
+// const calculateWalkingTime = (distance, speed = 3.6) => {
+//    return distance / speed
+//    }
+
+// const time = (decimalTimeString) => {  
+// var decimalTimeString = calculateWalkingTime(1);
+// var decimalTime = parseFloat(decimalTimeString);
+// decimalTime = decimalTime * 60 * 60;
+// var hours = Math.floor((decimalTime / (60 * 60)));
+// decimalTime = decimalTime - (hours * 60 * 60);
+// var minutes = Math.floor((decimalTime / 60));
+// decimalTime = decimalTime - (minutes * 60);
+// var seconds = Math.round(decimalTime);
+// if(hours < 10)
+// {
+// 	hours = "0" + hours;
+// }
+// if(minutes < 10)
+// {
+// 	minutes = "0" + minutes;
+// }
+// if(seconds < 10)
+// {
+// 	seconds = "0" + seconds;
+// }
+// return ("" + hours + ":" + minutes + ":" + seconds);
+// }
+
+// console.log(time())
+
+
+
+//   const calculateDrivingTime = (distance, speed = 101) => {
+//     if (speed <= 100) {
+//       return distance / speed
+//     } else{
+//        return "Driving above speed limmit"
+//     }
+//   }
+
+//   console.log(calculateDrivingTime(20))
+
+
+// const add = (x, y) => {
+// return x + y 
+// }
+
+// console.log(add(111, 1))
+
+// function WordCount(str) {
+   //  return str.split(' ')
+         //   .filter(function(n) { return n != '' })
+         //   .length;
+// }
+
+// console.log(WordCount("muano Nevhufumba"))
+
+
+// dt1 = new Date("2019-11-27");
+// dt2 = new Date("2018-06-28");
+  
+// function diff_year_month_day(dt1, dt2) 
+// {
+
+//  var time =(dt2.getTime() - dt1.getTime()) / 1000;
+//  var year  = Math.abs(Math.round((time/(60 * 60 * 24))/365.25));
+//  var month = Math.abs(Math.round(time/(60 * 60 * 24 * 7 * 4)));
+//  var days = Math.abs(Math.round(time/(3600 * 24)));
+//  return "Year :- " + year + " Month :- " + month + " Days :-" + days;
+  
+// }
+
+// console.log(diff_year_month_day(dt1,dt2))
+
+// startDate = new Date("1818-06-28");
+// endDate =  new Date("2019-11-27");
+
+
+// function getDateDifference(startDate, endDate) {
+//   if (startDate > endDate) {
+//     console.error('Start date must be before end date');
+//     return null;
+//   }
+//   var startYear = startDate.getFullYear();
+//   var startMonth = startDate.getMonth();
+//   var startDay = startDate.getDate();
+
+//   var endYear = endDate.getFullYear();
+//   var endMonth = endDate.getMonth();
+//   var endDay = endDate.getDate();
+
+//   // We calculate February based on end year as it might be a leep year which might influence the number of days.
+//   var february = (endYear % 4 == 0 && endYear % 100 != 0) || endYear % 400 == 0 ? 29 : 28;
+//   var daysOfMonth = [31, february, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+//   var startDateNotPassedInEndYear = (endMonth < startMonth) || endMonth == startMonth && endDay < startDay;
+//   var years = endYear - startYear - (startDateNotPassedInEndYear ? 1 : 0);
+
+//   var months = (12 + endMonth - startMonth - (endDay < startDay ? 1 : 0)) % 12;
+
+//   // (12 + ...) % 12 makes sure index is always between 0 and 11
+//   var days = startDay <= endDay ? endDay - startDay : daysOfMonth[(12 + endMonth - 1) % 12] - startDay + endDay;
+
+//   return {
+//     years: years,
+//     months: months,
+//     days: days
+//   };
+// }
+
+// console.log(getDateDifference(startDate, endDate))
+
+
+//    dateDifference(actualDate, value: boolean) {
+//             // Calculate time between two dates:
+//             const date1 = actualDate; // the date you already commented/ posted
+//             const date2: any = new Date(); // today
+
+//             let r = {}; // object for clarity
+//             let message: string;
+
+//             const diffInSeconds: number = Math.abs(date2 - date1) / 1000;
+//             const days: number = Math.floor(diffInSeconds / 60 / 60 / 24);
+//             const hours: number = Math.floor(diffInSeconds / 60 / 60 % 24);
+//             const minutes: number = Math.floor(diffInSeconds / 60 % 60);
+//             const seconds: number = Math.floor(diffInSeconds % 60);
+//             const milliseconds: number = 
+//            Math.round((diffInSeconds - Math.floor(diffInSeconds)) * 1000);
+
+//             const months: number = Math.floor(days / 31);
+//             const years: number = Math.floor(months / 12);
+
+//             // the below object is just optional 
+//             // if you want to return an object instead of a message
+//             r = {
+//                 years,
+//                 months,
+//                 days,
+//                 hours,
+//                 minutes,
+//                 seconds,
+//                 milliseconds
+//             };
+
+//             // check if difference is in years or months
+//             if (years === 0 && months === 0) {
+//                 // show in days if no years / months
+//                 if (days > 0) {
+//                     if (days === 1) {
+//                         message = days + ' day';
+//                     } else { message = days + ' days'; }
+//                 }  else if (hours > 0) {
+//                     // show in hours if no years / months / days
+//                     if (hours === 1) {
+//                         message = hours + ' hour';
+//                     } else {
+//                         message = hours + ' hours';
+//                     }
+//                 } else {
+//                     // show in minutes if no years / months / days / hours
+//                     if (minutes === 1) {
+//                         message = minutes + ' minute';
+//                     } else {message = minutes + ' minutes';}  
+//                 }
+//             } else if (years === 0 && months > 0) {
+//                 // show in months if no years
+//                 if (months === 1) {
+//                     message = months + ' month';
+//                 } else {message = months + ' months';}
+//             } else if (years > 0) {
+//                 // show in years if years exist
+//                 if (years === 1) {
+//                     message = years + ' year';
+//                 } else {message = years + ' years';}
+//             }
+
+//             // To display either an object or a message in the view
+//            if (value === true) {
+//                     return r;
+//                 }
+//             return message;
+//         }
+
+
+
+
+// express freecodeCamp.
+
+
+// var express = require('express');
+// var app = express();
+// var bodyParser = require('body-parser');
+
+
+// app.use(bodyParser.urlencoded({extended: false}))
+// app.use(bodyParser.json())
+
+// console.log("Hello World");
+
+
+// app.use((req, res, next) => {
+// var string = req.method + " " + req.path + " - " + req.ip;
+// console.log(string)
+//   next();
+// });
+
+// app.get("/", (req,res)=>{
+//   res.sendFile(__dirname + "/views/index.html")
+// })
+// app.use("/public", express.static(__dirname + "/public"))
+
+// const mySecret = process.env['MESSAGE_STYLE']
+// app.get("/json", (req,res)=>{
+//   if(process.env.MESSAGE_STYLE === "uppercase"){
+//   res.json({"message": "Hello json".toUpperCase()})
+// }else{
+//   res.json({"message": "Hello json"})
+
+// }
+// })
+
+// app.get("/now", (req,res, next)=>{
+//   req.now = new Date().toString();
+//   next();
+// }, (req,res)=>{
+//   res.send({time: req.now});
+// } )
+
+// app.get("/:word/echo", (req,res)=>{
+//   const{word} = req.params
+// res.json({echo: word})
+// })
+
+// app.get("/name", (req,res)=>{
+//   var {first: firstname, last: lastname} = req.query;
+//   res.json({name: `${firstname} ${lastname}`})
+// })
+
+
+
+// app.post("/name", function(req, res) {
+//     var string = req.body.first + " " + req.body.last;
+//     res.json({ name: string });
+//   });
+
+
+//  module.exports = app;
+
+
+
+
+//  mongodb+srv://muano-user_01:<kevin30>@cluster0.y8i6b.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+
+
+// const reversedArray = (n) =>{
+  // let reversed = n.toString().split('').reverse()
+  // return reversed.map((n) => parseInt(n))
+// }
+
+// console.log(reversedArray(56789))
+
+
+
+
