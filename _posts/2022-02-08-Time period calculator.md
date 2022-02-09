@@ -10,7 +10,7 @@ I was building the app that have to get the difference between two date and time
 
 # Body.
 
-## Explaination. 
+## Explanation. 
 
 Today i presented my app to other students, and i'm happy with the feedback that i got from other student cause they have shared whith me where i should improve when it comes to UI (User Interface) and EX (User Experience), i think this is one of the app that i have build focussing more on its functionality than UI and UX.
 
