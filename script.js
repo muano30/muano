@@ -1260,4 +1260,68 @@
 
 
 
+// const points = (games) => {
+//   let answer = 0
+//     for(const score of games) {
+//         const arr = score.split(":")
+//         if(Number(arr[0]) > Number(arr[1])) {
+//             answer += 3
+//         } else if (Number(arr[0]) == Number(arr[1])) {
+//             answer += 1
+//         }
+//     }
 
+//     return answer
+// }
+
+// console.log(points(['1:1','2:2','3:3','4:4','2:2','3:3','4:4','3:3','4:4','4:4']))
+
+require('dotenv').config();
+const mongoose = require("mongoose")
+const mySecret = process.env['MONGO_URI']
+mongoose.connect( mySecret, {useNewUrlParser: true})
+
+
+const personSchema = mongoose.Schema({
+  name: {type: String, required: true},
+  age: Number,
+  favoriteFoods: [String] 
+})
+
+
+let Person = mongoose.model("Person", personSchema);
+
+const createAndSavePerson = (done) => {
+  const muano = new Person({
+    name: "Muano Nevhufumba",
+    age: 20,
+    favoriteFoods: ["Eggs", "Fish", "Hard Body"]
+  })
+  muano.save(function(err,data){
+    if (err) return console.log(err);
+
+  done(null, data);
+    
+  })
+};
+
+let arrayOfPeople = [
+  {name: "Muano", age: 20, favoriteFoods: ["Eggs", "Fish", "Hard Body"]},
+  {name: "Tumi", age: 25, favoriteFoods: ["Eggs", "Fish", "Hard Body"]},
+ {name: "Feydo", age: 30, favoriteFoods: ["Eggs", "Fish", "Hard Body"]}
+]
+
+const createManyPeople = (arrayOfPeople, done) => {
+   Person.create(arrayOfPeople, function(err, peopleList){
+     if (err) return console.log(err);
+     done(null, peopleList);
+  })
+};
+
+const findPeopleByName = (personName, done) => {
+  Person.find({name: personName},function(err, found){
+if(err) return console.log(err)
+
+  done(null, found);
+  })
+};
