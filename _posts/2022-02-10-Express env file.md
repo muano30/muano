@@ -10,7 +10,7 @@ In this blog post i will talk about the .env file (Environmental file) that i ha
 
 # Body.
 
-## Expalnation.
+## Explanation.
 
 .env (Environmental file) is a hidden file that is used to pass environmetal variables to our application.
 This file is a secret no one have to see or access it only you can access it. This file is used to store data that we want to keep private or hidden.
