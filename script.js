@@ -1276,52 +1276,125 @@
 
 // console.log(points(['1:1','2:2','3:3','4:4','2:2','3:3','4:4','3:3','4:4','4:4']))
 
-require('dotenv').config();
-const mongoose = require("mongoose")
-const mySecret = process.env['MONGO_URI']
-mongoose.connect( mySecret, {useNewUrlParser: true})
+
+// mongoBD and Mongoose
+
+// MONGO-URI = mongodb+srv://muano-user_01:kevin30@cluster0.y8i6b.mongodb.net/freeCodeCampDataBase?retryWrites=true&w=majority
 
 
-const personSchema = mongoose.Schema({
-  name: {type: String, required: true},
-  age: Number,
-  favoriteFoods: [String] 
-})
+// require('dotenv').config();
+// const mongoose = require("mongoose")
+// const mySecret = process.env['MONGO_URI']
+// mongoose.connect( mySecret, {useNewUrlParser: true})
 
 
-let Person = mongoose.model("Person", personSchema);
+// const personSchema = mongoose.Schema({
+//   name: {type: String, required: true},
+//   age: Number,
+//   favoriteFoods: [String] 
+// })
 
-const createAndSavePerson = (done) => {
-  const muano = new Person({
-    name: "Muano Nevhufumba",
-    age: 20,
-    favoriteFoods: ["Eggs", "Fish", "Hard Body"]
-  })
-  muano.save(function(err,data){
-    if (err) return console.log(err);
 
-  done(null, data);
+// let Person = mongoose.model("Person", personSchema);
+
+// const createAndSavePerson = (done) => {
+//   const muano = new Person({
+//     name: "Muano Nevhufumba",
+//     age: 20,
+//     favoriteFoods: ["Eggs", "Fish", "Hard Body"]
+//   })
+//   muano.save(function(err,data){
+//     if (err) return console.log(err);
+
+//   done(null, data);
     
-  })
-};
+//   })
+// };
 
-let arrayOfPeople = [
-  {name: "Muano", age: 20, favoriteFoods: ["Eggs", "Fish", "Hard Body"]},
-  {name: "Tumi", age: 25, favoriteFoods: ["Eggs", "Fish", "Hard Body"]},
- {name: "Feydo", age: 30, favoriteFoods: ["Eggs", "Fish", "Hard Body"]}
-]
+// let arrayOfPeople = [
+//   {name: "Muano", age: 20, favoriteFoods: ["Eggs", "Fish", "Hard Body"]},
+//   {name: "Tumi", age: 25, favoriteFoods: ["Eggs", "Fish", "Hard Body"]},
+//  {name: "Feydo", age: 30, favoriteFoods: ["Eggs", "Fish", "Hard Body"]}
+// ]
 
-const createManyPeople = (arrayOfPeople, done) => {
-   Person.create(arrayOfPeople, function(err, peopleList){
-     if (err) return console.log(err);
-     done(null, peopleList);
-  })
-};
+// const createManyPeople = (arrayOfPeople, done) => {
+//    Person.create(arrayOfPeople, function(err, peopleList){
+//      if (err) return console.log(err);
+//      done(null, peopleList);
+//   })
+// };
 
-const findPeopleByName = (personName, done) => {
-  Person.find({name: personName},function(err, found){
-if(err) return console.log(err)
+// const findPeopleByName = (personName, done) => {
+//   Person.find({name: personName},function(err, found){
+// if(err) return console.log(err)
 
-  done(null, found);
-  })
-};
+//   done(null, found);
+//   })
+// };
+
+// const findOneByFood = (food, done) => {
+//    Person.findOne({favoriteFoods: food}, function(err, food){
+//  if(err) return console.log(err)
+//    done(null, food);
+//    })
+//  };
+ 
+//  const findPersonById = (personId, done) => {
+//    Person.findById(personId, function(err, personId){
+//      if(err) return console.log(err)
+//    done(null, personId);
+//    })
+//  };
+ 
+//  const findEditThenSave = (personId, done) => {
+//    const foodToAdd = "hamburger";
+//    Person.findById(personId,(err, person) => {
+//      if(err) return console.log(err)
+ 
+//      person.favoriteFoods.push("foodToAdd");
+ 
+//      person.save((err, updated) => {
+//        if(err) return console.log(err)
+//    done(null, updated);
+//      })
+//    })
+ 
+//  };
+
+// const findAndUpdate = (personName, done) => {
+//    const ageToSet = 20;
+//        Person.findOneAndUpdate({name: personName}, {age: ageToSet}, {new: true}, (err, updatedDoc) => {
+//      if(err) return console.log(err);
+//      done(null, updatedDoc);
+//    })
+//  };
+// const removeById = (personId, done) => {
+//   Person.findByIdAndRemove(personId, (err,data)=>{
+//     if(err) return console.log(err)
+//   done(null, data);
+//   })
+// };
+
+// const removeManyPeople = (done) => {
+//   const nameToRemove = "Mary";
+//   Person.deleteMany({name: nameToRemove},function(err, response){
+//     if(err) return console.log(err)
+//   done(null, response);
+//   })
+// };
+
+// Well of ideas-Easy-Version
+
+function well(x) {
+   switch (x.filter(i => i === 'good').length) {
+     case 0:
+       return 'Fail!'
+     case 1:
+     case 2:
+       return 'Publish!'
+     default:
+       return 'I smell a series!'
+   }
+ }
+
+console.log((well(['good', 'bad', 'bad', 'bad', 'bad'])));
