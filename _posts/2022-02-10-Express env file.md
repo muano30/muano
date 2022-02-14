@@ -19,6 +19,6 @@ For example, we can store API keys from external services or dataBase URI.
 
 # Conclusion.
 
-As you can see i didn't explain the set up about this file so i would like those who would want to know the set up to search about it.
+As you can see i didn't explain the set up about this file, so i would like those who would want to know the set up to search about it.
 
 It is important to know what this file is used for so that we will be able to use it the right way when working with our backend.
