@@ -6,7 +6,7 @@ date: "2021-02-11"
 
 # Introduction.
 
-Yesterday we were told to reseach about JWT(jsonwebtoken) because on monday we will be given a project that will require us to use JWT so in this blog post i will talk about what is JWT and why we need it.
+Yesterday we were told to reseach about JWT(jsonwebtoken), because on monday we will be given a project that will require us to use JWT so in this blog post i will talk about what is JWT and why we need it.
 
 # Body.
 
