@@ -1298,12 +1298,12 @@
 // let Person = mongoose.model("Person", personSchema);
 
 // const createAndSavePerson = (done) => {
-//   const muano = new Person({
+//   const person = new Person({
 //     name: "Muano Nevhufumba",
 //     age: 20,
 //     favoriteFoods: ["Eggs", "Fish", "Hard Body"]
 //   })
-//   muano.save(function(err,data){
+//   person.save(function(err,data){
 //     if (err) return console.log(err);
 
 //   done(null, data);
@@ -1377,10 +1377,21 @@
 
 // const removeManyPeople = (done) => {
 //   const nameToRemove = "Mary";
-//   Person.deleteMany({name: nameToRemove},function(err, response){
-//     if(err) return console.log(err)
-//   done(null, response);
+//   Person.deleteMany({"name" : nameToRemove} , (err , data) => {
+//       if(err) return console.error(err);
+//     data.ok = true;
+//     data.n = data.deletedCount;
+//     done(null , data);
 //   })
+
+// const queryChain = (done) => {
+//   Person.find({favoriteFoods: "burrito"})
+//   .sort({name: "asc"})
+//   .limit(2)
+//   .select({age: 0})
+//   .exec((err, data)=>{
+//     done(err, data)
+//   }) ;
 // };
 
 // Well of ideas-Easy-Version
