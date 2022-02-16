@@ -1,6 +1,6 @@
 ---
 Layout: 
-Title: "FreeCodeCamp Challange, Delete Many Document with model.remove() ."
+Title: "FreeCodeCamp Challenge, Delete Many Document with model.remove() ."
 date: "2022-02-14"
 ---
 
