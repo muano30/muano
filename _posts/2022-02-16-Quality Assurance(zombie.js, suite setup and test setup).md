@@ -1,7 +1,7 @@
 ---
 Layout: 
 Title: "Quality Assurance(,zombie.js, suite setup and test setup)."
-date: "2021-11-26"
+date: "2022-02-16"
 ---
 
 # Introduction.
