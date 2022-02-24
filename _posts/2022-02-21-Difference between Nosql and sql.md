@@ -12,7 +12,7 @@ date: "2022-02-21"
 
 ## Explanation.
 
-SQL or "See-Quel" is primilarly called RDBMS or Relational Databases. SQL databases are table based databases.
+SQL is primilarly called RDBMS or Relational Databases. SQL databases are table based databases.
 
 NoSQL is a Non-relational or Distributed Database. NoSQL databases can be document based, key-value pairs, graph databases.
 
