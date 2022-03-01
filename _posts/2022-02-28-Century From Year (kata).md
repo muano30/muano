@@ -35,14 +35,14 @@ On the second line with return i use ternary operator to checks the condition th
  console.log(century(2000))
 
  console.log(century(89))
- 
 
-The Math method i have just learned today is Math.ceil(), which return the smallest interger greater than or equal to the value we pass,
+
+2. The Math method i have just learned today is Math.ceil(), which return the smallest interger greater than or equal to the value we pass,
 I have learned about Math.floor(), which returns the largest or equal interger that is less than the given value meaning it round down, and Math.round() round to the closest whole number.
 
 
 
-2. The solution below is for Math.ceil()
+The solution below is for Math.ceil()
 
  
 const century = year => {
