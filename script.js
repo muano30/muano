@@ -1410,4 +1410,20 @@
 // console.log((well(['good', 'bad', 'bad', 'bad', 'bad'])));
 
 
+// const hello = (name) => {
+//    if (name === 'undefined' || name.length === 0){
+//       return `Hello, World`
+//    }else{
+//       return `Hello,${name[0].toUpperCase()}${name.substring(1).toLowerCase()}`
+//    }
+// }
+
+// console.log(hello(""))
+
+
+// function add(a, b) {
+//   return (Number(a) + Number(b)).toString(); // Fix me!
+// }
+
+// console.log(add('111', '222'))
 

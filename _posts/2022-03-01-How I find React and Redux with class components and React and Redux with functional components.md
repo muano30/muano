@@ -1,7 +1,7 @@
 ---
 Layout: 
 Title: "How I find React and Redux with class components and React and Redux with functional components."
-date: "2021-11-19"
+date: "2022-03-01"
 ---
 
 # Introduction.
