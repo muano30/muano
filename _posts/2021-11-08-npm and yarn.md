@@ -6,8 +6,7 @@ date: "2021-11-08"
 
 # Introduction.
  
-In this blog post i will just share the different between npm and yarn, when i was introduced to react i knew only one way to run or install 
-thing in my apllication which is npm, then not long ago a learn that we can also use yarn.
+In this blog post i will just share the different between npm and yarn, when i was introduced to react i knew only one way to run or install thing in my apllication which is npm, then not long ago i learn that we can also use yarn.
 
 # Body.
 
@@ -19,7 +18,7 @@ This is why we use npm it puts modules in place so that node can find them, and 
 
 Yarn is a new package manager replaces the existing workflow for the npm client while remaining compatible with the npm registry.It has the same feature set as existing workflows while operating faster, more securely, and more reliable.
 
-My terminal already had npm so for me to use yarn i had to install it, i'm using ubuntu latest version 21.10,  this is how i install yarn using my terminal which you can open by using the shortcut Ctrl + Alt + T then copy what is below and paste it in my terminal and press enter.
+My terminal already had npm so for me to use yarn i had to install it, i'm using ubuntu latest version 21.10,  this is how i install yarn using my terminal which you can open by using the shortcut Ctrl + Alt + T then copy what is below and paste it in terminal and press enter.
 
 sudo apt remove cmdtest
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -

@@ -31,5 +31,3 @@ const Hearder = () => {
         </div>
     )
 }
-
-# Conclusion.

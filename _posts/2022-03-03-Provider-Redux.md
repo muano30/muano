@@ -1,7 +1,7 @@
 ---
 Layout: 
-Title: "."
-date: "2022-03-02"
+Title: "Provider-Redux."
+date: "2022-03-03"
 ---
 
 # Introduction.
@@ -59,7 +59,7 @@ ReactDOM.render(
  <React.StrictMode>
 
   <Provider store={store}>
-  
+
     <App />
 
   </Provider >
