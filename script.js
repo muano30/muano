@@ -1420,10 +1420,18 @@
 
 // console.log(hello(""))
 
-
-// function add(a, b) {
-//   return (Number(a) + Number(b)).toString(); // Fix me!
+// function add (a, b) {
+//    var result = ''
+//    var carry = 0
+//  a = a.split('')
+//  b = b.split('')
+//  while (a.length || b.length || carry) {
+//    carry += ~~a.pop() + ~~b.pop()
+//    result = carry % 10 + result
+//    carry = carry > 9
+//  }
+//  return result
 // }
 
-// console.log(add('111', '222'))
+// console.log(add('1', '1'))
 
