@@ -1435,3 +1435,14 @@
 
 // console.log(add('1', '1'))
 
+
+
+
+let person = {
+   firstName: "John"}
+let newPerson = person
+person.firstName = "Smith"
+
+console.log(person)
+console.log(newPerson)
+
